@@ -75,3 +75,56 @@ Some of the data visuals that may be appropriate in answering our questions incl
 | Power BI |	Visualizing the data via interactive dashboards |
 | GitHub |	Hosting the project documentation and version control |
 | Mokkup AI |	Designing the wireframe/mockup of the dashboard |
+
+## Development
+### Pseudocode
+- What's the general approach in creating this solution from start to finish?
+  - Get the data
+  - Explore the data in Excel
+  - Load the data into SQL Server
+  - Clean the data with SQL
+  - Test the data with SQL
+  - Visualize the data in Power BI
+  - Generate the findings based on the insights
+  - Write the documentation + commentary
+  - Publish the data to GitHub Pages
+
+## Data exploration notes
+This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc
+
+- What are your initial observations with this dataset? What's caught your attention so far?
+  - There are at least 4 columns that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
+  - The first column contains the channel ID with what appears to be channel IDS, which are separated by a @ symbol - we need to extract the channel names from this.
+  - Some of the cells and header names are in a different language - we need to confirm if these columns are needed, and if so, we need to address them.
+  - We have more data than we need, so some of these columns would need to be removed.
+ 
+## Data cleaning
+- What do we expect the clean data to look like? (What should it contain? What contraints should we apply to it?)
+  - The aim is to refine our dataset to ensure it is structured and ready for analysis.
+- The cleaned data should meet the following criteria and constraints:
+  - Only relevant columns should be retained.
+  - All data types should be appropriate for the contents of each column.
+  - No column should contain null values, indicating complete data for all records.
+ 
+Below is a table outlining the constraints on our cleaned dataset:
+
+| Property |	Description |
+| --- | --- |
+| Number of Rows |	100 |
+| Number of Columns |	4 |
+
+And here is a tabular representation of the expected schema for the clean data:
+
+| Column Name |	Data Type |	Nullable |
+| --- | --- | --- |
+| channel_name |	VARCHAR |	NO |
+| total_subscribers |	INTEGER |	NO |
+| total_views |	INTEGER |	NO |
+| total_videos | INTEGER | NO |
+
+- What steps are needed to clean and shape the data into the desired format?
+  - Remove unnecessary columns by only selecting the ones you need
+  - Extract Youtube channel names from the first column
+  - Rename columns using aliases
+ 
+## Transform the data
