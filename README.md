@@ -1,6 +1,6 @@
 # Data Portfolio: Excel to Power BI
 
-![Dashboard-Mockup](assets/images/kaggle_to_powerbi.gif)
+![Kaggle-PowerBI](assets/images/kaggle_to_powerbi.gif)
 
 
 
@@ -56,7 +56,7 @@ To understand what it should contain, we need to figure out what questions we ne
 
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 
-## Dashboard mockup
+## Dashboard Mockup
 - What should it look like?
 Some of the data visuals that may be appropriate in answering our questions include:
 
@@ -64,3 +64,5 @@ Some of the data visuals that may be appropriate in answering our questions incl
 2. Treemap
 3. Scorecards
 4. Horizontal bar chart
+
+![Dashboard-Mockup](assets/images/dashboard_mockup.png)
