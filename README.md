@@ -66,3 +66,12 @@ Some of the data visuals that may be appropriate in answering our questions incl
 4. Horizontal bar chart
 
 ![Dashboard-Mockup](assets/images/dashboard_mockup.png)
+
+## Tools
+| Tool | Purpose |
+| --- | --- |
+| Excel |	Exploring the data |
+| SQL Server |	Cleaning, testing and analyzing the data |
+| Power BI |	Visualizing the data via interactive dashboards |
+| GitHub |	Hosting the project documentation and version control |
+| Mokkup AI |	Designing the wireframe/mockup of the dashboard |
