@@ -128,3 +128,20 @@ And here is a tabular representation of the expected schema for the clean data:
   - Rename columns using aliases
  
 ## Transform the data
+
+```sql
+/*
+# 1. Select the required columns
+# 2. Extract the channel name from the 'NOMBRE' column
+*/
+
+-- 1.
+SELECT
+    SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) -1) AS channel_name,  -- 2.
+    total_subscribers,
+    total_views,
+    total_videos
+
+FROM
+    top_uk_youtubers_2024
+```
