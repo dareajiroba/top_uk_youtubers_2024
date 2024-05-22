@@ -202,3 +202,20 @@ WHERE
 ```
     
 ![Column-count-check](assets/images/2_column_count_check.png)
+
+### Data type check
+```sql
+/*
+# Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+*/
+
+-- 1.
+SELECT
+    COLUMN_NAME,
+    DATA_TYPE
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_NAME = 'view_uk_youtubers_2024'
+```
+![Data-type-check](assets/images/3_data_type_check.png)
