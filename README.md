@@ -187,6 +187,7 @@ FROM
 ![Row-count-check](assets/images/1_row_count_check.png)
 
 ### Column count check
+```sql
 /*
 # Count the total number of columns (or fields) are in the SQL view
 */
@@ -198,5 +199,6 @@ FROM
     INFORMATION_SCHEMA.COLUMNS
 WHERE
     TABLE_NAME = 'view_uk_youtubers_2024'
+```
     
 ![Column-count-check](assets/images/2_column_count_check.png)
