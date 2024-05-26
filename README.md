@@ -464,5 +464,4 @@ ORDER BY
 	net_profit DESC
 
 ```
-![Youtubers-with-the-most-subscribers](assets
-/images/youtubers_with_the_most_subs.png)
+![Youtubers-with-the-most-subscribers](assets/images/youtubers_with_the_most_subs.png)
