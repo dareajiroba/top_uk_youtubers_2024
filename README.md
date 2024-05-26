@@ -27,7 +27,7 @@
 - [Recommendations](#Recommendations)
 	- [Potential ROI](#Potential-ROI)
 	- [Action plan](#Action-plan)
-- [Reference](#Reference)
+- [References](#References)
 
 ## Objective
 - What is the key pain point?
