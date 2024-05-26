@@ -2,7 +2,32 @@
 
 ![Kaggle-PowerBI](assets/images/kaggle_to_powerbi.gif)
 
-
+### Table of contents
+- [Objective](#Objective)
+- [Data Source](#Data-Source)
+- [Stages](#stages)
+- [Design](#Design)
+	- [Dashboard Mockup](#Dashboard-Mockup)
+	- [Tools](#Tools)
+- [Development](#Development)
+	- [Pseudocode](#Pseudocode)
+	- [Data Exploration](#Data-Exploration)
+	- [Data Cleaning](#Data-Cleaning)
+	- [Transform the Data](#Transform-the-Data)
+	- [Create the SQL View](#Create-the-SQL-View)
+- [Testing](#Testing)
+	- [Data Quality Tests](#Data-Quality-Tests)
+- [Visualization](#Visualization)
+	- [Results](#Results)
+	- [DAX Measures](#DAX-Measures)
+- [Analysis](#Analysis)
+	- [Findings](#Findings)
+	- [Validation](#Validation)
+	- [Discovery](#Discovery)
+- [Recommendations](#Recommendations)
+	- [Potential ROI](#Potential-ROI)
+	- [Action plan](#Action-plan)
+- [Reference](#Reference)
 
 ## Objective
 - What is the key pain point?
@@ -669,3 +694,6 @@ We'll have conversations with the marketing client to forecast what they also ex
 2. Negotiate contracts within the budgets allocated to each marketing campaign
 3. Kick off the campaigns and track each of their performances against the KPIs
 4. Review how the campaigns have gone, gather insights and optimize based on feedback from converted customers and each channel's audiences
+
+#### References
+- [sdw-online](https://github.com/sdw-online/top_uk_youtubers_2024)
