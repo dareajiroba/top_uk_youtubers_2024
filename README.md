@@ -253,3 +253,14 @@ HAVING
 
 ![Powerbi-dashbord](assets/images/top_uk_youtubers_2024.gif)
 This shows the Top UK Youtubers in 2024 so far.
+
+## DAX Measures
+### 1. Total Subscribers (M)
+```dax
+Total Subscribers (M) = 
+VAR million = 1000000
+VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR totalSubscribers = DIVIDE(sumOfSubscribers,million)
+
+RETURN totalSubscribers
+```
