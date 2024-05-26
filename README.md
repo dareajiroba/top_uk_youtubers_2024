@@ -246,3 +246,10 @@ HAVING
 ```
 
 ![Duplicate-count-check](assets/images/4_duplicate_records_check.png)
+
+### Visualization
+#### Results
+- What does the dashboard look like?
+
+![Powerbi-dashbord](powerbi_dashboard.png)
+This shows the Top UK Youtubers in 2024 so far.
