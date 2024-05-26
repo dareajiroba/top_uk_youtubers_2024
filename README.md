@@ -251,5 +251,5 @@ HAVING
 ### Results
 - What does the dashboard look like?
 
-![Powerbi-dashbord](assets/images/powerbi_dashboard.png)
+![Powerbi-dashbord](assets/images/top_uk_youtubers_2024.gif)
 This shows the Top UK Youtubers in 2024 so far.
