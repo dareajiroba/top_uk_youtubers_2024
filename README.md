@@ -11,7 +11,7 @@
 	- [Tools](#Tools)
 - [Development](#Development)
 	- [Pseudocode](#Pseudocode)
-	- [Data Exploration](#Data-Exploration)
+	- [Data Exploration notes](#Data-Exploration-notes)
 	- [Data Cleaning](#Data-Cleaning)
 	- [Transform the Data](#Transform-the-Data)
 	- [Create the SQL View](#Create-the-SQL-View)
